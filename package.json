@@ -1,0 +1,25 @@
+{
+  "name": "night-watch-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "scripts": {
+    "selenium-server": "cd ./bin && java -jar selenium-server-standalone-3.10.0.jar",
+    "nightwatch": "./node_modules/.bin/nightwatch --env chrome,safari,firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.35.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "geckodriver": "^1.10.0",
+    "nightwatch": "^0.9.19"
+  }
+}
