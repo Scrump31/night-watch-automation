@@ -1,3 +1,5 @@
 node_modules
 reports
 tests
+keys.js
+selenium-debug.log
