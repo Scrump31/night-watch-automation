@@ -1,4 +1,4 @@
-const { user, key } = require('./keys');
+const { browserStackUser, browserStackKey } = require('./keys');
 
 const nightwatch_config = {
   src_folders: ['tests'],
@@ -70,8 +70,8 @@ const nightwatch_config = {
       selenium_host: 'hub-cloud.browserstack.com',
       selenium_port: 80,
       desiredCapabilities: {
-        'browserstack.user': user,
-        'browserstack.key': key,
+        'browserstack.user': browserStackUser,
+        'browserstack.key': browserStackKey,
         acceptSslCerts: true,
         project: 'Skookum.com',
         build: 'Services Page',
