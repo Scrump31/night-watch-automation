@@ -1,5 +1,6 @@
 node_modules
 reports
-tests
+tests/*
+!tests/miscTests
 keys.js
 selenium-debug.log
