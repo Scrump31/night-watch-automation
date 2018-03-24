@@ -4,6 +4,7 @@ const nightwatch_config = {
   src_folders: ['tests'],
   output_folder: 'reports',
   test_workers: { enabled: false, workers: 'auto' },
+  'page_objects_path': ['./tests/miscTests/page_objects'],
   selenium: {
     start_process: true,
     server_path: './bin/selenium-server-standalone-3.10.0.jar',
